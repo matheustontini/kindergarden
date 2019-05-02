@@ -1,0 +1,75 @@
+* { 
+    box-sizing: border-box; 
+    margin: 0px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+header {
+    height: 500px;
+    background-image: url('img/banner.jpg');
+    background-size: 100%;
+}
+#mission {
+    background-color: #FFE964;
+    text-align: center;
+}
+#about_us {
+    background-color: #ffffff;
+}
+#our_team {
+    background-color: #FF523D;
+}
+#contact {
+    background-color: #223C88;
+}
+.content {
+    max-width: 800px;
+    margin: auto;
+}
+.space {
+    padding: 100px 0px 100px 0px;
+}
+h2 {
+    padding-bottom: 50px;
+    font-size: 3rem;
+}
+h1 {
+    font-size: 4rem;
+}
+header div #logo {
+    max-width: 450px;
+    color: #ffffff;
+    padding: 0px;
+    border-bottom: 3px solid #ffffff;
+}
+.text_center{
+    text-align: center;
+}
+#our_team, #contact {
+    color: #ffffff;
+}
+nav li {
+    display: inline;
+    margin: 20px;
+}
+nav {
+    padding: 20px;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+.yellow{
+    color: #FFE964;
+}
+.red {
+    color: #FF523D;
+}
+.blue{
+    color: #223C88;
+}
+img {
+    max-width: 200px;
+}
